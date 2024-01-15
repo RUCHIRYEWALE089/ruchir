@@ -1,3 +1,3 @@
 # ruchir
-THIS IS MY FIRST REPOSITORY
+MY NAME IS RUCHIR
 this is section c
