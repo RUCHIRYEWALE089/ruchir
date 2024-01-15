@@ -1,0 +1,2 @@
+# ruchir
+THIS IS MY FIRST REPOSITORY
