@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+  <h1>Registration form</h1> 
+  <form>
+    <fieldset>
+        <legend>Registration Form</legend>
+        <label>First Name :</label>
+        <input type="text" name="rname" maxlength="7"
+        placeholder="Enter first name" ><br><br>
+        <lable>Middle name : </lable>
+        <input type="text" name="fname" maxlength="7"><br><br>
+        <lable>Last Name :</lable>
+        <input type="text" name="fname" maxlength="7"><br><br>
+        <lable>Gender</lable>
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="Female">Female <br><br>
+        <label>Date :</label>
+        <input type="date" ><br><br>
+        <label> Email</label>
+        <input type="email"><br><br>
+        <label>Adress</label>
+        <textarea>
+
+        </textarea><br><br>
+        <label>Checkbox</label><br><br>
+        <input type="checkbox" name="Skill 1">Programing language <br><br>
+        <input type="checkbox" name="Skill 2">web development <br><br>
+        <input type="checkbox" name="Skill 3"> React <br><br>
+        <input type="checkbox" name="Skill 4">C++ <br><br>
+        <input type="checkbox" name="Skill 5">java <br><br>
+        <label>State</label>
+        <select name="branch">
+            <option value="0" selected disabled>----select branch-----</option>
+            <option value="CSE">COMPUTER SCIENCE</option>
+            <option value="ETC">ETC</option>
+            <option value="AI">AI&DS</option>
+        </select><br><br>
+        <label>Upload Image :</label>
+        <input type="file"><br><br>
+        <input type="reset" value="CLEAR ALL"><br><br>
+        <input type="submit" value="SUBMIT"><br><br>
+
+    </fieldset>
+  </form> 
+</body>
+</html>
