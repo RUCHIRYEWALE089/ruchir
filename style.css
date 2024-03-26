@@ -1,0 +1,49 @@
+body{
+    background-image: url(background: #5f2c82;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    );
+}
+
+.formheading
+{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 0, 0);
+    background-color: cornsilk;
+    text-decoration: underline;
+    text-shadow: 4px 4px blueviolet ;
+    text-align: center;
+    font-weight: bold;
+}
+.box
+{
+    
+    background-color: rgb(0, 255, 255);
+    border: 4px solid black;
+    width: 80%;
+    box-shadow: black ;
+
+}
+.subheading
+{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(15, 36, 223);
+    background-color: rgb(237, 255, 220);
+    text-decoration: underline;
+    text-shadow: 3px 3px rgb(35, 236, 17) ;
+    text-align: center;
+    font-weight: bold; 
+}
+.img
+{
+    height: 100px;
+    weight: 100px;
+    border: 3px solid blue;
+    border-radius: 50px;
+}
+.icon
+{
+    color: rgb(195, 0, 255);
+}
